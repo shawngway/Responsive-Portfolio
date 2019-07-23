@@ -1,0 +1,138 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.navigation {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    
+    
+}
+.name {
+    position: fixed;
+    background-color: #4aaaa5;
+    padding: 33px;
+    margin-left: 332px;
+    font-size: 30px;
+    color: white;
+    top: 0px;
+}
+.listwrap {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  background-color: black;
+}
+.listwrap li:not(:first-child):after {
+  content: " | ";
+}
+ul {
+    position: fixed;
+    list-style-type: none;
+    top: 12px;
+    right: 325px;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 70px;
+    margin: auto;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    margin-top: 15px;
+    display: inline-block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+.aboutme {
+    color:  #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }  
+hr {
+color: #dddddd;
+  }
+.aboutwrapper {
+  margin: 35px 25px 25px 25px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 20px;
+  color: grey;
+
+  }
+ #aboutpic { 
+    float: left;
+    padding: 30px;
+  }
+.aboutcontent {
+  width: 960px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid;
+    border-color:#4aaaa5;
+    border-width: 5px;
+    height: 60px;
+  }
+.footercopy {
+margin-top: 40px;
+font-size: 13px;
+color: #cccccc;
+}
+.pagecontainer {
+  margin-top: 125px;
+  margin-bottom: 125px;
+  /* background-image: url("/assets/images/fishnets-and-hearts.zip"); */
+}
+
+      
+}
+body {
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  
+}
+.imaging {
+  height: 960px;
+}
+.images {
+  float: left;
+  width: 300px;
+  padding: 15px;
+  height: 300px;
+}
+.text {
+  height: 19px;
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 70px;
+}
