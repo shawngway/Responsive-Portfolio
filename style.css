@@ -122,9 +122,9 @@ body {
 }
 .images {
   float: left;
-  width: 300px;
+  width: 425px;
   padding: 15px;
-  height: 300px;
+  height: 425px;
 }
 .text {
   height: 19px;
@@ -134,11 +134,19 @@ textarea {
   width: 100%;
   height: 70px;
 }
+.submitbutton {
+  width: 175px;
+  background-color: #4aaaa5;
+  color: white;
+}
 @media only screen and (max-width: 980px) {
   .aboutcontent {width: 600px; margin-left: 35px;} 
   #aboutpic {width: 200px; padding: 15px;}
   .aboutwrapper {font-size: 16px;}
   .aboutme {font-size: 23px;}
+  .name {margin-left: 42px;}
+  ul {right: 30px;}
+  .images { width: 245px;height: 245px;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -157,6 +165,7 @@ textarea {
     border-color: #cccccc;
     border-width: 2px;}
   ul {position: static;margin-right: 144px;}
+  .images {width: 506px; height: 506px;}
 
-  }
+  
 
